@@ -19,10 +19,10 @@ sed -i 's/#\?AllowTcpForwarding .*/AllowTcpForwarding yes/' /etc/ssh/sshd_config
 echo "
 <h3><font color='red'>▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬
 </font></h3>
-<h3><font color='magenta'>--- ۩ PREMIUM SERVER ۩ ---
+<h3><font color='magenta'>--- ۩ PREMIUM SERVER BY MZC۩ ---
 </font></h3>
 
-<h3><font color='green'>--- ۩ GCP SERVER BY MZC ۩ ---
+<h3><font color='green'>--- ۩ GCP PREMIUM SERVER BY MZC ۩ ---
 </font></h3>
 
 <h4><font color='cyan'>Telegram Channel >> https://t.me/MZC
@@ -33,8 +33,8 @@ echo "
 
 <h3><font color='red'>▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬
 </font></h3>" | tee /etc/ssh/gcp_404 >/dev/null
-useradd "mzc" --shell=/bin/false -M
-echo "mzc:mzc" | chpasswd
+useradd "mzcvip" --shell=/bin/false -M
+echo "mzcvip:mzcvip" | chpasswd
 
 echo ""
 
